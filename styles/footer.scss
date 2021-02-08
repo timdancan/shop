@@ -1,0 +1,28 @@
+.footer {
+  background-color: #000;
+  height: 36px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  & ul {
+    display: flex;
+  }
+}
+
+.footer__item {
+  font-size: 14.5px;
+  line-height: 2.03;
+  letter-spacing: 1.09px;
+  color: #ffffff;
+  margin-right: 43px;
+}
+
+.footer__link {
+  height: 22px;
+  width: 22px;
+  margin-right: 13px;
+}
